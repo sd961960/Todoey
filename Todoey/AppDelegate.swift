@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         //code that prints out the file path of the saved data on the simulator (its a plist)
-        print(NSSearchPathForDirectoriesInDomains(.preferencePanesDirectory, .userDomainMask, true).last! as String)
+        //        print(NSSearchPathForDirectoriesInDomains(.preferencePanesDirectory, .userDomainMask, true).last! as String)
         
         return true
     }
